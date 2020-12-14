@@ -1,5 +1,5 @@
 <annotation>
-	<folder>data</folder>
+	<folder>JPEGImages</folder>
 	<filename>1frame0091.jpg</filename>
 	<path>/content/train/data/JPEGImages/1frame0091.jpg</path>
 	<source>
@@ -21,6 +21,18 @@
 			<ymin>35</ymin>
 			<xmax>199</xmax>
 			<ymax>55</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>turn_right</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>296</xmin>
+			<ymin>30</ymin>
+			<xmax>316</xmax>
+			<ymax>58</ymax>
 		</bndbox>
 	</object>
 </annotation>
