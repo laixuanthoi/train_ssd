@@ -12,13 +12,13 @@ class TrainAugmentation:
         self.size = size
         self.augment = Compose([
             ConvertFromInts(),
-            PhotometricDistort(),
+            # PhotometricDistort(),
             Expand(self.mean),
-            # RandomSaturation(),
-            # RandomContrast(),
-            # RandomBrightness(),
+            RandomSaturation(),
+            RandomContrast(),
+            RandomBrightness(),
             RandomSampleCrop(),            
-            # RandomLightingNoise(),
+            RandomLightingNoise(),
             ToPercentCoords(),
             Resize(self.size),
             SubtractMeans(self.mean),
