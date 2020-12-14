@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>frame0189.jpg</filename>
+	<path>/home/lhucomlab/train_ssd/data/JPEGImages/frame0189.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>240</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ban</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>223</xmin>
+			<ymin>24</ymin>
+			<xmax>251</xmax>
+			<ymax>54</ymax>
+		</bndbox>
+	</object>
+</annotation>
