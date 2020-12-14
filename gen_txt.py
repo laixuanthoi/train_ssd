@@ -30,8 +30,8 @@ def genDataset(dataset, file):
         filename = xml_data.getElementsByTagName('filename')[0].firstChild.data      
         print(root + "/JPEGImages/" + filename)  
         assert path.exists(root + "/JPEGImages/" + filename) == True
-        assert len(xml_data.getElementsByTagName('object')) > 0    
-        assert xml_data.getElementsByTagName('difficult')[0].firstChild.data == "0"
+        # assert len(xml_data.getElementsByTagName('object')) > 0    
+        # assert xml_data.getElementsByTagName('difficult')[0].firstChild.data == "0"
         file.write(getFileNameWithoutExt(filename) + "\n")
         trainval_txt.write(getFileNameWithoutExt(filename) + "\n")
         img = cv2.imread((root + "/JPEGImages/" + filename))
