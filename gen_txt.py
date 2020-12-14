@@ -26,7 +26,7 @@ test_txt = open('test.txt', "w+")
 trainval_txt = open('trainval.txt', "w+")
 
 def getFileNameWithoutExt(filename):
-    return filename.split('.')[0]
+    return os.path.splitext(filename)[0]
 
 def lprint(str):
     print(str.ljust(os.get_terminal_size().columns - 1), end="\r")
