@@ -390,7 +390,7 @@ class PhotometricDistort(object):
             RandomContrast(),  # RGB
             ConvertColor(current="RGB", transform='HSV'),  # HSV
             RandomSaturation(),  # HSV
-            RandomHue(),  # HSV
+            # RandomHue(),  # HSV
             ConvertColor(current='HSV', transform='RGB'),  # RGB
             RandomContrast()  # RGB
         ]
