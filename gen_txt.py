@@ -61,13 +61,13 @@ print("\n")
 target = root + '/ImageSets/Main/train.txt'
 print("Copy train.txt to {}".format(target))
 replace("train.txt", target)
-target = root + '/ImageSets/Main/train.txt'
+target = root + '/ImageSets/Main/val.txt'
 print("Copy val.txt to {}".format(target))
 replace("val.txt", target)
-target = root + '/ImageSets/Main/train.txt'
+target = root + '/ImageSets/Main/trainval.txt'
 print("Copy trainval.txt to {}".format(target))
 replace("trainval.txt", target)
-target = root + '/ImageSets/Main/train.txt'
+target = root + '/ImageSets/Main/test.txt'
 print("Copy test.txt to {}".format(target))
 replace("test.txt", target)
 print("\nDone!\n")
