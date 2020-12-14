@@ -1,7 +1,7 @@
 <annotation>
-	<folder>data</folder>
+	<folder>JPEGImages</folder>
 	<filename>1frame0094.jpg</filename>
-	<path>/content/train/data/JPEGImages/1frame0094.jpg</path>
+	<path>/home/lhucomlab/train_ssd/data/JPEGImages/1frame0094.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>ban_left</name>
+		<name>turn_left</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

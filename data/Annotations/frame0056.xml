@@ -1,7 +1,7 @@
 <annotation>
 	<folder>JPEGImages</folder>
 	<filename>frame0056.jpg</filename>
-	<path>/content/train/data/JPEGImages/frame0056.jpg</path>
+	<path>/home/lhucomlab/train_ssd/data/JPEGImages/frame0056.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,16 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>ban_left</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>134</xmin>
-			<ymin>40</ymin>
-			<xmax>157</xmax>
-			<ymax>63</ymax>
-		</bndbox>
-	</object>
 </annotation>
