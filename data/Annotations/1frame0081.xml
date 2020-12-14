@@ -1,0 +1,26 @@
+<annotation>
+	<folder>data</folder>
+	<filename>1frame0081.jpg</filename>
+	<path>/content/train/data/JPEGImages/1frame0081.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>240</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>straight</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>218</xmin>
+			<ymin>17</ymin>
+			<xmax>264</xmax>
+			<ymax>65</ymax>
+		</bndbox>
+	</object>
+</annotation>

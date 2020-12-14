@@ -1,0 +1,26 @@
+<annotation>
+	<folder>data</folder>
+	<filename>1stop0017.jpg</filename>
+	<path>/content/train/data/JPEGImages/stop0017.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>240</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>stop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>214</xmin>
+			<ymin>12</ymin>
+			<xmax>240</xmax>
+			<ymax>39</ymax>
+		</bndbox>
+	</object>
+</annotation>

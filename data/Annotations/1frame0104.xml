@@ -1,0 +1,26 @@
+<annotation>
+	<folder>data</folder>
+	<filename>1frame0104.jpg</filename>
+	<path>/content/train/data/JPEGImages/1frame0104.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>240</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>turn_left</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>209</xmin>
+			<ymin>34</ymin>
+			<xmax>228</xmax>
+			<ymax>60</ymax>
+		</bndbox>
+	</object>
+</annotation>
